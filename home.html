@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prtfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo"> <b>S<span>E</span>WMINI.</b></div>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class='bx bx-x' onclick="closemenu()"></i>
+                </ul>
+                <i class='bx bx-menu' onclick="openmenu()"></i>
+
+            </nav>
+            <div class="header-text">
+                <p>Software Engineering Undergraduate</p>
+                <h1>Hi,I'm <span>Sewmini</span> <br>De Silva</h1>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- -------about---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-1">
+                    <img src="image/Picsart_23-08-31_17-18-47-200.jpg" alt="profile">
+                </div>
+                <div class="col-2">
+                    <h1 class="sub-title"> <b>About Me</b></h1>
+                    <p>I'm a Software Engineering Undergradute at the University of Kelaniya.
+                        I'm an enthusiastic and driven Software Engineering student seeking a challenging internship
+                        opportunity to
+                        apply and expand my technical skills.
+                        With a strong academic foundation in software engineering and hands-on experience in various
+                        programming
+                        languages, I am eager to contribute to innovative projects and learn from experienced
+                        professionals in the
+                        industry.
+                        I am a quick learner who is always ready to face challenges.</p>
+                    </p>
+                    <div class="tab-title">
+                        <p class="tab-link active-link" onclick="opentab('Skills')"> <b>Skills</b></p>
+                        <p class="tab-link" onclick="opentab('Education')"><b>Education</b></p>
+                        <p class="tab-link" onclick="opentab('Experience')"><b>Experience</b></p>
+                    </div>
+
+                    <div class="tab-content active-tab" id="Skills">
+
+                        <ul>
+                            <li>
+                                <h3>HTML/CSS</h3>
+                                <span class="bar"><span class="HTML"></span> </span>
+                            </li>
+                            <li>
+                                <h3>JavaScript</h3>
+                                <span class="bar"><span class="JS"></span> </span>
+                            </li>
+                            <li>
+                                <h3>MySQL</h3>
+                                <span class="bar"><span class="MySQL"></span> </span>
+                            </li>
+                            <li>
+                                <h3>Java</h3>
+                                <span class="bar"><span class="Java"></span> </span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-content" id="Education">
+                        <ul>
+                            <li><span>2021-current</span><br> <b>Bsc(Hons) in Software Engineering</b> <br>University of
+                                Kelaniya
+                                <br><br>Current GPA-3.288
+                            </li>
+                            <li><span>2020</span> <br> <b>G.C.A Advance Leval Examination </b><br>Physical Stream
+                                <br>Taxila Central Collage,Horana <br><br>Z-Score-1.578
+                            </li>
+
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------project---------- -->
+
+
+    <div id="project">
+        <div class="container">
+            <h1 class="sub-title"><b>My Project</b></h1>
+            <div class="post-wrapper">
+
+                <div class="post">
+                    <img class="img" src="image/men-fashion.jpg" alt="project1">
+                    <div class="post-preview">
+                        <h3>Men-Fashion</h3>
+                        <p class="post-intro"><b>Full Stack Ecommerce Web Application-Group</b>
+                            HTML|JavaScript|PHP|MySQL</p>
+                        <a href="#"> <br>Learn more</a>
+
+                    </div>
+                </div>
+
+                <div class="post">
+                    <img class="img" src="image/ArtFrauds copy.jpg" alt="project2">
+                    <div class="post-preview">
+                        <h3>Art-Gallery</h3>
+                        <p class="post-intro"> <b>Virtual Tour App for an Art Gallery </b></p>
+                        <a href="#"> <br>Learn more</a>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <img class="img" src="image/project3Img.jpeg" alt="project3">
+                    <div class="post-preview">
+                        <h3>Portfolio</h3>
+                        <p class="post-intro"> <b>This website-Individual</b>
+                            HTML|CSS|JavaScript</p>
+                        <a href="#"> <br>Learn more</a>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+    <!-- ------------contact------------ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-1">
+                    <div class="contact-info">
+                        <ul>
+                            <li><a href="#"><i class='bx bxs-phone'></i>0783250720</a></li>
+                            <li><a href="#"><i class='bx bxs-paper-plane'></i>sewminidesilva4@gmail.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="contact-icon">
+                        <a href="https://www.linkedin.com/in/imesha-de-silva-489414247"><i
+                                class='bx bxl-linkedin'></i></a>
+                        <a href="https://github.com/sewmini25"><i class='bx bxl-github'></i></a>
+                        <a href="https://www.facebook.com/imesha.desilva.35?mibextid=ZbWKwL"><i
+                                class='bx bxl-facebook'></i></a>
+                        <a href="#"><i class='bx bxl-medium'></i></a>
+                    </div>
+                </div>
+
+                <div class="col-2">
+                    <h1 class="sub-title"><b>Contact Me</b></h1>
+
+                    <div class="contact-form">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <input type="number" name="number" placeholder="Your Mobile-Number" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-link");
+        var tabcontents = document.getElementsByClassName("tab-content");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    </script>
+
+    <script>
+
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbycvCk77qc-535zC4f5lwMXBcMCTovkt4H5kq91llRsW1oPZtrRGj1VPasTnlAVe3PI/exec'
+        const form = document.forms['submit-to-google-sheet']
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+
+                .then(response => console.log('Success!', response))
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
